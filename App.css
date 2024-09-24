@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+}
+
+
+.input input{
+
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px 15px;
+    width: 250px;
+    font-weight: bold;
+    border: 4px solid aqua;
+    border-radius: 26px;
+    margin-left: 20px;
+
+}
+
+.input button{
+
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid yellow;
+    border-radius: 25px;
+    padding: 10px 10px;
+    width: 120px;
+    margin: 25px 25px;
+}
+
+.input button:hover{
+
+    background-color:blue;
+}
+
+#img{
+
+width: 100px;
+float: right;
+margin-top: 10px;
+margin-left: 20px;
+margin-right: 20px;
+
+}
+
+
+.box{
+    box-sizing: border-box;
+    padding: 3px;
+    background-color: transparent;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    
+
+}
+
+
+
+.h1 h1{
+
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+
+li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+#Tasklist{
+
+    list-style: none;
+    padding: 0px;
+}
+
+
+
+
+
